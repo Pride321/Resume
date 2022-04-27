@@ -1,0 +1,26 @@
+.nav-link:hover{
+    color: yellow !important;
+}
+
+.rounded-circle{
+
+    position: absolute;
+    margin-top: 2rem;
+    margin-right: 40rem;
+    height: 145px;
+    width: 140px;
+
+    @media screen (max-width:480px;, min-width=500px;){
+        .navbar{
+            display:block;
+        }
+       
+    }
+}
+
+#activity{
+    margin-top: 1rem;
+}
+
+
+
