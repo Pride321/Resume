@@ -1,0 +1,436 @@
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-color: #0D0D2B;
+    font-family: rubik;
+}
+
+nav {
+    display: flex
+    
+}
+
+.logo{
+    padding-top: 4rem;
+    padding-left: 8rem;
+}
+.logo a{
+text-decoration: none;
+padding-left: 0.5rem;
+}
+
+.nav-links ul a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    padding-left: 1.5rem;
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nav-links ul{
+    display: flex;
+    padding-top: 4.5rem;
+    padding-left: 60rem;
+}
+
+#register{
+    position: relative;
+    bottom: .5rem;
+}
+
+#login{
+    border-right: white;
+}
+
+section {
+    padding-left: 8rem;
+    padding-top: 6rem;
+}
+
+section h1{
+    font-weight: 800;
+    font-size: 80px;
+}
+
+section .space{
+    margin-left: 2rem;
+}
+
+.icons .row .col img{
+    width: 80px;
+    height: 80px;
+}
+
+.icons .row .col{
+    
+    display: flex;
+}
+
+.icons .row p{
+position: relative;
+right: 12rem;
+color: white;
+margin-top: 3rem;
+margin-right: 3rem;
+}
+
+.icons .row h1{
+    color: white;
+    margin-left: 3rem;
+}
+
+.icons .row{
+    padding-top: 14rem;
+    padding-left: 12rem;
+}
+
+.illustration .row .col p{
+    color: white;
+}
+
+.illustration .row .col{
+    position: relative;
+    right: 5rem;
+}
+
+.illustration .row .col h1{
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+    padding-top: 10rem;
+    padding-right: 4rem;
+}
+
+.illustration .row{
+    padding-left: 16rem;
+    padding-top: 8rem;
+    
+}
+
+.inside-cube{
+    padding-top: 20rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.inside-cube h1{
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.inside-cube p{
+    color:#E0E0E0;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: rubik;
+}
+
+.form{
+    z-index: 1;
+    position:absolute;
+    background-color: white;
+    width: 900px;
+    height: 300px;
+    margin-left: 31rem;
+    margin-top: 5rem;
+    justify-content: center;
+    padding-bottom: 4rem;
+    
+}
+
+.form h6,h1,p{
+    margin-top: 2rem;
+}
+
+.form label,h6,h1,p{
+    margin-top: 4rem;
+    margin-left: 3rem;
+    padding-right: 4rem;
+}
+
+.form button{
+    margin-left: 15rem;
+}
+
+.black{
+    max-width: 100%;
+    position:absolute;
+    max-height: 100px;
+    background: #0D0D2B;
+}
+
+
+.testimonial{
+    position:absolute;
+    background-color: white;
+    background: white;
+    height: 125vh;
+    width: 100%;
+    top: 150rem;
+}
+
+.testimonial .col{
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial h1{
+    text-align: center;
+    margin-top: 20rem;
+    display: grid;
+    place-content: center;
+    color: black;
+    background-color: white;
+}
+
+h2{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.testimonial button{
+    text-align: center;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+.testimonial .box{
+    display: inline-block;
+    width: 370px;
+    align-items: center;
+    align-content: center;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+
+#bitcoin{
+    position: absolute;
+    left: 20rem;
+    bottom: 0.5rem;
+    margin-top: 10rem;
+    background: #2B076E;
+    background-color:#2B076E;
+    color:#2B076E ;
+}
+
+#ether{
+    position: absolute;
+    left: 800px;
+    bottom: 1rem;
+}
+
+#ether button{
+    margin-left: 9rem;
+    border-width: 0.25rem;
+    width: 50px;
+    height: 50px;
+}
+
+#lite{
+    position: absolute;
+    left: 80rem;
+    bottom: 1rem;
+}
+
+#lite button{
+    margin-left: 9rem;
+    border-width: 0.25rem;
+    width: 50px;
+    height: 50px;
+}
+
+.testimonial .box img{
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
+
+.market-sent{
+    position:relative;
+    width: 100%;
+    height: 200vh;
+    background: #2B076E;
+    top: 83.25rem;
+    display: grid;
+}
+
+.market-sent h1{
+    
+    grid-row: 1;
+    grid-column: 1/2;
+    margin-top: 10rem;
+    background: none;
+    font-weight: 700;
+    font-size: 40px;
+    
+
+
+
+}
+
+.info h3,p{
+    background: none;
+}
+
+.info{
+    background: none;
+}
+
+.info button{
+    margin-left: 3rem;
+}
+
+.market-sent .info{
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.chart1{
+    grid-row: 2;
+    grid-column: 2;
+    background: none;
+}
+
+.chart2{
+    grid-row: 3;
+    grid-column: 1;
+    background: none;
+}
+
+.detail{
+    grid-row: 3;
+    grid-column: 2;
+    background: none;
+}
+
+.detail button{
+    margin-left: 3rem;
+}
+
+.grow{
+    grid-row: 4;
+    grid-column: 1;
+    background: none;
+}
+
+.grow button
+{
+    margin-left: 3rem;
+}
+
+.chart3{
+    grid-row: 4;
+    grid-column: 2;
+    background: none;
+}
+
+.linear-gradient{
+    position:absolute;
+    background: linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%);
+    width: 100%;
+    height: 300px;
+    top: 340rem;
+}
+
+.mining{
+    background:#3671E9;
+    width: 80%;
+    height: 250px;
+    margin-top: 4rem;
+    margin-left: 9rem;
+    border-radius: 16px;
+}
+
+.mining p{
+    margin-right:60rem;
+}
+
+.mining h2,p,input{
+    background: none;
+    color: white;
+
+}
+.mining h2{
+    margin-right: 73rem;
+}
+
+.mining input,button{
+
+   margin-left: 60rem;
+   margin-right: 2rem;
+}
+
+.mining button{
+    position: absolute;
+    left: 83rem;
+    bottom: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.mail{
+    position: absolute;
+    border: none;
+    bottom: 4rem;
+    margin-bottom: 2rem;
+}
+
+
+.footer{
+position: absolute;
+width: 100%;
+height: 552px;
+left: 0px;
+top: 5950px;
+}
+
+.footer h2{
+    background: none;
+    color: white;
+    margin-right: 15rem;
+    padding-bottom: 2rem;
+}
+
+.footer ul li{
+    list-style-type: none;
+    font-weight: 100;
+    padding: 0.5rem;
+}
+
+.visa h1{
+    padding-right: 2rem;
+    margin-right: 4rem;
+}
+
+.visa{
+    margin-top: 10rem;
+    padding-top: 3rem;
+    padding-right: 4rem;
+}
+
+.logo1{
+    margin-top: 14rem;
+    margin-left: 5rem;
+}
+
+.copy{
+    padding-top: 10rem;
+    margin-left: 5rem;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.socials ul li{
+    display: inline-block;
+    margin-top:9rem ;
+    margin-left: 5rem;
+}
